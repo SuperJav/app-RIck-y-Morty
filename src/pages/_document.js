@@ -11,6 +11,8 @@ export default function Document() {
       <meta name="author" content="javielito ramirez"></meta>
       <meta name="copyright" content="Javi super"></meta>
       <meta name="keywords" content="Rick y Morty, planetas, galaxia , localizacion,personajes,Rick,Morty,frase de rick , persoanjes de rick y morty"></meta>
+      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1963653124077014"
+     crossorigin="anonymous"></script>
       </Head>
       <body>
         <Main />
