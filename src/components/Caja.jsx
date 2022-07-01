@@ -16,7 +16,7 @@ const Caja=({datos,cantidaPersonaje,ocultarVermas})=>{
                         (
                             <div key={key} className=" shadow-md shadow-amber-500 h-[100%] w-[68%] mn:w-[100%] md:w-[100%] bg-slate-700 grid grid-cols-1 md:grid-cols-2 rounded-md  mx-0  sm:mx-auto">
                                 <div className=" rounded-md flex mx-auto md:mx-0">
-                                    <Image className="md:rounded-tl-sm md:rounded-bl-sm" src={index.image}  alt={index.name} width={"250rem"} height={"170rem"} layout='fixed'/>
+                                    <Image className="md:rounded-tl-sm md:rounded-bl-sm" src={index.image}  alt={index.name} width={"250rem"} height={"170rem"} priority layout='fixed'/>
                                 </div>
                                 <div className="flex  flex-col ml-5 text-xs md:text-base lg:text-lg mn:text-center  md:text-left">
                                     <Link href={"/infiniti/personaje/[id]"} as={`/infiniti/personaje/${index.id}`}>

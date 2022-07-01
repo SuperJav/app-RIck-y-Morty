@@ -5,7 +5,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 // import required modules
 import { Autoplay,EffectFade} from "swiper";
 import Link from "next/link";
-
+import Image from "next/image"
 //Componente carrusel para las imagenes of Home
  export  const Carrusel=()=>{
 
@@ -45,7 +45,7 @@ import Link from "next/link";
                     <div className=" absolute z-10  flex items-center justify-end w-full h-80">
                         <div className="flex ml-44 md:ml-96 lg:ml-[40rem] flex-col">
                             <h1  className=" font-thin text-justify text-white text-sm md:text-lg mb-3 mr-5">
-                                Nadie existe a propósito. Nadie pertenece a ninguna parte. Todos vamos a morir. Ven a ver la televisión.    – Morty <br/><br/>
+                                Nadie existe a propósito. Nadie pertenece a ninguna parte. Todos vamos a morir. Ven a ver la televisión.    * Morty <br/><br/>
                                 Podríamos disfrutarlo un rato. Es decir, mira lo loco que es todo * Morty</h1>
                                 <Link href={"/infiniti/localizacion"}>
                                     <button className="outline  hover:outline-offset-2 outline-cyan-700  text-center md:text-left text-xs font-semibold lg:text-left px-1 py-2 md:p-4 bg-[#2AAF6D] w-32 md:w-max rounded opacity-80 hover:opacity-100">localización</button>
