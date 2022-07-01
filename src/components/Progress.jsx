@@ -6,7 +6,7 @@ export default function CircularIndeterminate() {
   return (
     <div className=' absolute flex h-40 items-center'>
       <Box sx={{ display: 'flex' }}>
-        <CircularProgress className=' mn:mx-10 md:mx-36 lg:mx-64' />
+        <CircularProgress className=' mn:mx-12 md:mx-36 lg:mx-64' />
       </Box>
     </div>
   );
